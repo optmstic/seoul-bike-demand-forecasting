@@ -1,6 +1,6 @@
 # Decision Support Systems Project - IBM Data Analyst Capstone Project
 
-## 🚲 Demand Forecasting for Seoul's Bicycle-Sharing System
+## Demand Forecasting for Seoul's Bicycle-Sharing System
 
 This project was developed as part of the IBM Data Analyst Professional Certificate. It applies real-world data analysis techniques to understand and forecast bicycle rental demand in Seoul, South Korea.
 
