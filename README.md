@@ -14,7 +14,7 @@ Using R, APIs, and machine learning, this end-to-end solution includes:
 
 The goal is to simulate a real business scenario where a city planner or transportation company could use the dashboard to monitor and anticipate demand, improving service efficiency.
 
-### 🧱 Folder Structure
+### Folder Structure
 ```text
 .
 ├── main.R # Pipeline controller
@@ -27,7 +27,7 @@ The goal is to simulate a real business scenario where a city planner or transpo
 └── README.md
 ```
 
-### 📊 Results
+### Results
 
 - Cleaned datasets (CSV)
 - Multiple EDA visualizations
@@ -35,4 +35,4 @@ The goal is to simulate a real business scenario where a city planner or transpo
 - Trained model file (`.rds`)
 - Shiny dashboard with filtering and time-based visualizations
 
-> ✅ Run `main.R` to execute the full pipeline and launch the app.
+> Run `main.R` to execute the full pipeline and launch the app.
