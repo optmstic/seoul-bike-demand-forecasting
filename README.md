@@ -1,38 +1,83 @@
-# Decision Support Systems Project - IBM Data Analyst Capstone Project
+# Seoul Bike Demand Forecasting
 
-## Demand Forecasting for Seoul's Bicycle-Sharing System
+Academic project for **Decision Support Systems** and the **IBM Data Analyst Capstone**.
 
-This project was developed as part of the IBM Data Analyst Professional Certificate. It applies real-world data analysis techniques to understand and forecast bicycle rental demand in Seoul, South Korea.
+This project builds an end-to-end analytical workflow for understanding and forecasting bicycle-sharing demand in Seoul, South Korea. It combines data collection, cleaning, exploratory analysis, predictive modelling, and an interactive Shiny dashboard.
 
-Using R, APIs, and machine learning, this end-to-end solution includes:
+---
 
-- **Data collection** via web scraping and OpenWeather API
-- **Data cleaning** and feature engineering with tidyverse
-- **Exploratory data analysis** and visual storytelling
-- **Predictive modeling** using regularized regression (`glmnet`)
-- **Interactive dashboard** deployment using R Shiny
+## Objective
 
-The goal is to simulate a real business scenario where a city planner or transportation company could use the dashboard to monitor and anticipate demand, improving service efficiency.
+Simulate a decision-support tool for a city planner or bicycle-sharing operator who needs to:
 
-### Folder Structure
+- Monitor bicycle rental demand
+- Understand demand patterns across time and weather conditions
+- Forecast expected rentals
+- Support operational planning and resource allocation
+
+---
+
+## Workflow
+
+1. **Data collection**  
+   Web scraping and OpenWeather API calls.
+
+2. **Data preparation**  
+   Cleaning, feature engineering, and creation of processed datasets.
+
+3. **Exploratory data analysis**  
+   Visual analysis of demand patterns, seasonality, and weather relationships.
+
+4. **Predictive modelling**  
+   Demand forecasting using regularized regression with `glmnet`.
+
+5. **Decision-support dashboard**  
+   Interactive R Shiny dashboard for exploring trends and forecasts.
+
+---
+
+## Repository structure
+
 ```text
 .
-├── main.R # Pipeline controller
-├── R/ # Scripts for scraping, API, cleaning, EDA, modeling
-├── data/raw/ # Raw datasets
-├── data/processed/ # Cleaned datasets
-├── output/plots/ # Graphical outputs
-├── output/models/ # Trained ML models
-├── report.pdf # Data analysis report
+├── main.R                  # Pipeline controller
+├── R/                      # Modular scripts for data collection, cleaning, EDA, modelling, and dashboard
+├── report.pdf              # Academic report
 └── README.md
 ```
 
-### Results
+The `R/` folder includes scripts for package installation, scraping, API calls, data loading, cleaning, EDA, modelling, and Shiny dashboard generation.
 
-- Cleaned datasets (CSV)
-- Multiple EDA visualizations
-- Forecasting model with high R²
-- Trained model file (`.rds`)
-- Shiny dashboard with filtering and time-based visualizations
+---
 
-> Run `main.R` to execute the full pipeline and launch the app.
+## Main outputs
+
+- Cleaned analytical datasets
+- Exploratory visualisations
+- Forecasting model
+- Interactive Shiny dashboard
+- Academic report documenting the full workflow
+
+---
+
+## Technologies
+
+`R` · `tidyverse` · `glmnet` · `Shiny` · `Web Scraping` · `OpenWeather API` · `Forecasting` · `Decision Support Systems`
+
+---
+
+## How to run
+
+Open the project in RStudio or another R environment and run:
+
+```r
+source("main.R")
+```
+
+This executes the pipeline and launches the dashboard, assuming the required packages and API configuration are available.
+
+---
+
+## Notes
+
+This is an academic decision-support project. The forecast model is intended for analytical demonstration and should be validated further before production use.
