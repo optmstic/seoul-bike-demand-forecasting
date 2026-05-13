@@ -36,20 +36,6 @@ Simulate a decision-support tool for a city planner or bicycle-sharing operator 
 
 ---
 
-## Repository structure
-
-```text
-.
-├── main.R                  # Pipeline controller
-├── R/                      # Modular scripts for data collection, cleaning, EDA, modelling, and dashboard
-├── report.pdf              # Academic report
-└── README.md
-```
-
-The `R/` folder includes scripts for package installation, scraping, API calls, data loading, cleaning, EDA, modelling, and Shiny dashboard generation.
-
----
-
 ## Main outputs
 
 - Cleaned analytical datasets
